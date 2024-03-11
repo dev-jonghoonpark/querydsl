@@ -56,16 +56,17 @@
         </exclusion>
       </exclusions>
     </dependency>
-
     <dependency>
       <groupId>org.ow2.asm</groupId>
       <artifactId>asm</artifactId>
       <version>${asm.version}</version>
+      <scope>test</scope>
     </dependency>
     <dependency>
       <groupId>org.ow2.asm</groupId>
       <artifactId>asm-commons</artifactId>
       <version>${asm.version}</version>
+      <scope>test</scope>
     </dependency>
     
      <!-- backwards compatibility -->

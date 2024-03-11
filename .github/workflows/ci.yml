@@ -59,7 +59,7 @@ jobs:
           key: ${{ runner.os }}-maven-${{ hashFiles('**/pom.xml') }}
 
       - name: Run tests
-        run: mvn --batch-mode install -am jacoco:report --activate-profiles all,travis,examples
+        run: mvn --batch-mode install -am jacoco:report --activate-profiles all,travis,examples -Duser.timezone=UTC
 
       - name: Clean up before caching
         run: rm -rf ~/.m2/repository/com/querydsl/

@@ -68,10 +68,9 @@
       <artifactId>h2</artifactId>
     </dependency>
     <dependency>
-      <groupId>com.jolbox</groupId>
-      <artifactId>bonecp</artifactId>
-      <version>0.8.0-beta1</version>
-      <classifier>jdk7</classifier>
+      <groupId>com.zaxxer</groupId>
+      <artifactId>HikariCP</artifactId>
+      <version>5.1.0</version>
     </dependency>
     <dependency>
       <groupId>joda-time</groupId>

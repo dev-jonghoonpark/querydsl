@@ -132,7 +132,7 @@
         </executions>
         <configuration>
           <jdbcDriver>org.h2.Driver</jdbcDriver>
-          <jdbcUrl>jdbc:h2:mem:example</jdbcUrl>
+          <jdbcUrl>jdbc:h2:mem:;INIT=runscript from 'file:${project.baseUri}/src/main/resources/sql/001_schema.sql'</jdbcUrl>
           <jdbcUser>sa</jdbcUser>
           <customTypes>
             <customType>com.querydsl.sql.types.DateTimeType</customType>

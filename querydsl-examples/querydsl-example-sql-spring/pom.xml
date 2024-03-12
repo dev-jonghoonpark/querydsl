@@ -16,7 +16,7 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <spring.version>5.3.32</spring.version>
+    <spring.version>5.3.19</spring.version>
     <h2.version>1.3.170</h2.version>
   </properties>
 
@@ -132,7 +132,7 @@
         </executions>
         <configuration>
           <jdbcDriver>org.h2.Driver</jdbcDriver>
-          <jdbcUrl>jdbc:h2:mem:;INIT=runscript from 'file:${project.baseUri}/src/main/sql/001_schema.sql'</jdbcUrl>
+          <jdbcUrl>jdbc:h2:mem:example</jdbcUrl>
           <jdbcUser>sa</jdbcUser>
           <customTypes>
             <customType>com.querydsl.sql.types.DateTimeType</customType>

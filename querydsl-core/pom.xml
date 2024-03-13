@@ -128,7 +128,7 @@
           <groupId>cglib</groupId>
           <artifactId>cglib</artifactId>
           <version>${cglib.version}</version>
-          <scope>test</scope>
+          <optional>true</optional>
           <exclusions>
             <exclusion>
               <groupId>org.ow2.asm</groupId>

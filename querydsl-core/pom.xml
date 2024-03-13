@@ -144,13 +144,13 @@
           <groupId>org.ow2.asm</groupId>
           <artifactId>asm</artifactId>
           <version>${asm.version}</version>
-          <scope>test</scope>
+          <optional>true</optional>
         </dependency>
         <dependency>
           <groupId>org.ow2.asm</groupId>
           <artifactId>asm-commons</artifactId>
           <version>${asm.version}</version>
-          <scope>test</scope>
+          <optional>true</optional>
         </dependency>
       </dependencies>
     </profile>

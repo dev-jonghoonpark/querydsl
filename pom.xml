@@ -933,9 +933,9 @@
     </profile>
 
     <profile>
-      <id>java-21</id>
+      <id>java-17</id>
       <activation>
-        <jdk>[21,)</jdk>
+        <jdk>[17,)</jdk>
       </activation>
       <build>
         <plugins>
